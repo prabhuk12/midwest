@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/MIDWEST"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/PID/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/PID/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/PID/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/area/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/area/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/area/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/category/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/category/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/category/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/county/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/county/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/county/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/inmetro/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/inmetro/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/inmetro/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percadultpoverty/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percadultpoverty/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percadultpoverty/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percamerindan/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percamerindan/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percamerindan/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percasian/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percasian/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percasian/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percbelowpoverty/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percbelowpoverty/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percbelowpoverty/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percblack/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percblack/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percblack/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percchildbelowpovert/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percchildbelowpovert/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percchildbelowpovert/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percelderlypoverty/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percelderlypoverty/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percelderlypoverty/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/perchsd/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/perchsd/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/perchsd/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percollege/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percollege/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percollege/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percother/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percother/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percother/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percpovertyknown/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percpovertyknown/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percpovertyknown/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percprof/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percprof/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percprof/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/percwhite/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/percwhite/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/percwhite/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popadults/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popadults/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popadults/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popamerindian/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popamerindian/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popamerindian/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popasian/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popasian/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popasian/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popblack/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popblack/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popblack/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popdensity/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popdensity/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popdensity/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popother/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popother/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popother/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/poppovertyknown/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/poppovertyknown/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/poppovertyknown/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/poptotal/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/poptotal/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/poptotal/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/popwhite/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/popwhite/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/popwhite/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/state_1/MIDWEST"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST_UNIQUE_ROW_ID/MIDWEST">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/state_1/MIDWEST">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/state_1/MIDWEST"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MIDWEST/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PID/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/area/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">70</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/category/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">16</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/county/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">320</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/inmetro/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percadultpoverty/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percamerindan/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percasian/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percbelowpoverty/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percblack/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percchildbelowpovert/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percelderlypoverty/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">436</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/perchsd/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percollege/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percother/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">435</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percpovertyknown/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percprof/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/percwhite/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popadults/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">436</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popamerindian/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">271</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popasian/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">274</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popblack/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">306</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popdensity/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">436</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popother/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">256</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/poppovertyknown/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">436</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/poptotal/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">435</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/popwhite/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">437</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/state_1/MIDWEST">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">5</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:01:13 21:45:51</TIME>
+</rdf:Description>
+
+</rdf:RDF>
